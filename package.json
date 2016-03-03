@@ -1,0 +1,21 @@
+{
+	"name": "brisk-letsencrypt",
+	"description": "Easy authentication of an SSL certificate using Let's Encrypt, for a Brisk application",
+	"version": "0.0.0",
+	"author": "makesites",
+	"contributors": [
+		{ "name": "Makis Tracend", "email": "makis@makesit.es" }
+	],
+	"homepage": "http://github.com/brisk-modules/letsencrypt",
+	"keywords": ["brisk", "letsencrypt", "ssl", "security"],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/brisk-modules/letsencrypt.git"
+	},
+	"engines": { "node": ">=0.8.x" },
+	"main": "index",
+	"bin": { },
+	"dependencies": {
+		"brisk": "0.9.1"
+	}
+}
