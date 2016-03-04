@@ -5,7 +5,8 @@ var controller = Parent.extend({
 
 	// Let's encrypt verification...
 	".well-known": function(req, res){
-		var letsencrypt = req.site.helpers.letsencrypt;
+		var Helper = require('brisk-letsencrypt').getHelper('letsencrypt');
+		var letsencrypt = new Helper(); // use: req.site.helpers.letsencrypt;
 		var domain = req.get('host'); // or req.get('origin');
 		// Let's Encrypt
 		//if( req.query["acme-challenge"] ){
