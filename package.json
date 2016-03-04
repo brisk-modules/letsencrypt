@@ -1,7 +1,7 @@
 {
 	"name": "brisk-letsencrypt",
 	"description": "Easy authentication of an SSL certificate using Let's Encrypt, for a Brisk application",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"author": "makesites",
 	"contributors": [
 		{ "name": "Makis Tracend", "email": "makis@makesit.es" }
