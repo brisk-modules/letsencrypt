@@ -19,7 +19,7 @@ var controller = Parent.extend({
 		if( req.query['_key'] == "acme-token" ){
 			// save token
 			letsencrypt.acmeToken( req.query["token"], domain );
-			res.send(200); // customize response?
+			res.sendStatus(200); // customize response?
 			return res.end();
 		}
 		// otherwise end the request now
